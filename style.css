@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at center, #0f2027, #0b0c10);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Layout */
+.main {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Canvas 3D */
+#canvas3d {
+    width: 420px;
+    height: 420px;
+}
+
+/* Calculadora */
+.container {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,247,255,0.2);
+    text-align: center;
+    width: 300px;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    color: #00f7ff;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #00f7ff, #00c4cc);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00f7ff;
+}
